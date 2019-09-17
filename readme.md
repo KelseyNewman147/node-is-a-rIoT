@@ -12,5 +12,5 @@ To run a script from the `/scripts` folder, simply run:
 
 Available options:
 - `rgb`: changes the color of an RGB LED through a web interface using web sockets.
-- `fade`: incrementally fades an LED brighter and brighter.
-- `pulse`: uses of callbacks to fade out a series of LEDs one after the other.
+- `pulse`: incrementally fades an LED brighter and brighter.
+- `fade`: uses of callbacks to fade out a series of LEDs one after the other.
