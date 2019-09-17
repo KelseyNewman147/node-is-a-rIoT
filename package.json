@@ -1,0 +1,18 @@
+{
+  "name": "arduino",
+  "version": "1.0.0",
+  "description": "Using NodeJS to Power IoT applications",
+  "main": "app.js",
+  "scripts": {
+    "rgb" : "node scripts/rgb.js",
+    "fade" : "node scripts/led-fade-callback.js",
+    "pulse": "node scripts/led-pulse-animation.js"
+  },
+  "author": "Kelsey Newman",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "johnny-five": "^1.3.1",
+    "socket.io": "^2.2.0"
+  }
+}
